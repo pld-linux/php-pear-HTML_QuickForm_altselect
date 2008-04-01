@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	HTML_QuickForm_altselect
 Summary:	%{_pearname} - An alternative to HTML_QuickForm_select using radio buttons and checkboxes
-Summary(pl.UTF-8):	%{_pearname} - alternatywa lda HTML_QuickForm_select wykorzystująca przyciski radio oraz pola wyboru
+Summary(pl.UTF-8):	%{_pearname} - alternatywa dla HTML_QuickForm_select wykorzystująca przyciski radio oraz pola wyboru
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	2
@@ -32,9 +32,9 @@ In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
 Pakiet ten to wtyczka dla HTML_QuickForm rozszerzająca element select
-o pola wyboru lub przyciski radio w zależności czy atrybut multiple
-został ustawiony bądź nie. Dodatkowe, nie opisane opcje, są dostępne
-podczas renderowania pola tekstowego 'Other' .
+o pola wyboru lub przyciski radio w zależności od tego, czy atrybut
+multiple został ustawiony. Dodatkowe, nie opisane opcje, są dostępne
+podczas renderowania pola tekstowego 'Other'.
 
 Ta klasa ma w PEAR status: %{_status}.
 
