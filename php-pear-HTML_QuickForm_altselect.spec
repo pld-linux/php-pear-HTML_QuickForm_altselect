@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - An alternative to HTML_QuickForm_select using radio buttons and checkboxes
 Summary(pl.UTF-8):	%{_pearname} - alternatywa dla HTML_QuickForm_select wykorzystująca przyciski radio oraz pola wyboru
 Name:		php-pear-%{_pearname}
-Version:	1.0.0
-Release:	3
+Version:	1.1.0
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	323edd06e3b22a6a624f007abe4fbd19
+# Source0-md5:	a12d368d59772c237529ebf3676608fe
 URL:		http://pear.php.net/package/HTML_QuickForm_altselect/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
