@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		HTML
-%define		_subclass	QuickForm_altselect
 %define		_status		stable
 %define		_pearname	HTML_QuickForm_altselect
 Summary:	%{_pearname} - An alternative to HTML_QuickForm_select using radio buttons and checkboxes
 Summary(pl.UTF-8):	%{_pearname} - alternatywa dla HTML_QuickForm_select wykorzystująca przyciski radio oraz pola wyboru
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	a12d368d59772c237529ebf3676608fe
 URL:		http://pear.php.net/package/HTML_QuickForm_altselect/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-HTML_Common >= 1.2.1
@@ -41,9 +39,9 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-AutoReq:	no
 Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
