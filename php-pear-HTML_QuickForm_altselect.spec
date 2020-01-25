@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	HTML_QuickForm_altselect
 Summary:	%{_pearname} - An alternative to HTML_QuickForm_select using radio buttons and checkboxes
